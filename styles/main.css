@@ -1,0 +1,26 @@
+#container {
+    display: grid;
+    height: 70vh;
+    width: 70vh;
+    margin:auto;
+    border: red solid 10px;
+    border-radius: 10px;
+}
+
+.cells {
+    border-width: 0px;
+}
+
+.mouse-over {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7vh;
+}
+
+#button-div {
+    margin-top: 10px;
+    text-align: center;
+}
