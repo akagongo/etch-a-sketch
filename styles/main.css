@@ -1,10 +1,11 @@
 #container {
     display: grid;
-    height: 70vh;
-    width: 70vh;
+    height: 60vh;
+    width: 60vh;
     margin:auto;
-    border: red solid 10px;
+    border:#AF231C solid 20px;
     border-radius: 10px;
+    margin-top: 5vh;
 }
 
 .cells {
@@ -16,11 +17,35 @@
 }
 
 h1 {
+    margin-top: 0px;
     text-align: center;
     font-size: 7vh;
+    color: #241DAF;
 }
 
 #button-div {
     margin-top: 10px;
     text-align: center;
+}
+
+button {
+    background-color: #241DAF;
+    color: #FFFFFF;
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    position: fixed;
+    height: 10vh;
+    background-color: #241DAF;
+    bottom: 0;
+    width: 100%;
+}
+
+#by {
+    margin-bottom: 0px;
+    color: #FFFFFF;
 }
